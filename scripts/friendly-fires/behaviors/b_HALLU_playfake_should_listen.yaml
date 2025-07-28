@@ -1,0 +1,8 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+end:
+  speak:  "_DEEPFAKE_VIDEO_LISTEN_TO_DOCTOR"
+

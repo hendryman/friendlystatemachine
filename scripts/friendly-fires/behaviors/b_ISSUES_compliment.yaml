@@ -1,0 +1,19 @@
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  prompt: 
+    - _PERSONA
+    - _CONVERSATION_SO_FAR      
+    - _CHAT_HISTORY
+    - _USER_INFO.
+    - _TRANSITION_TO make them a compliment and ask them if they feel better now. _TRANSITION_COMPLETE. 
+    - _ALL_NUDGES
+
+  # emotion: sadness
+  azure_style: Friendly # 0.8
+  # sg_mood: positive
+
+
+    

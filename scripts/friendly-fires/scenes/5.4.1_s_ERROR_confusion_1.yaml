@@ -1,0 +1,16 @@
+scene:
+  name: "Confusion: Trying to Fix"
+  description: "Wait a minute..."
+  initial: False
+  final: False
+  light_cue: "5"
+  audio_playback: "004-horror"
+
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Pushy"
+    behavior: "b_ERROR_confusion_1"
+    few_shots: "exploration"
+exits:
+  - condition: null
+    target   : s_ERROR_confusion_2

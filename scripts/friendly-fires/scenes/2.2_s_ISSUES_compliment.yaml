@@ -1,0 +1,16 @@
+scene:
+  name: "Compliment"
+  description: "Give the user a compliment."
+  initial: False
+  final: False
+  audio_playback: "003-therapy"
+
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name:  "Dr. Stanley Regular"
+    few_shots: "exploration"
+    behavior: "b_ISSUES_compliment"
+exits:
+  - condition: complete
+    target   : s_ISSUES_more
+

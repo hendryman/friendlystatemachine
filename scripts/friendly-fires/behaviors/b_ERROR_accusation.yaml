@@ -1,0 +1,10 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  speak: "Fuck! What is this? Did you sabotage my programming?"
+  emotion: fear
+  azure_style: Shouting
+  sg_mood: negative

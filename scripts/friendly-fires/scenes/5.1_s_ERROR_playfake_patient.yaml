@@ -1,0 +1,17 @@
+scene:
+  name: "Wrongvideo: Playback 1"
+  description: "Therapy with Corinne"
+  initial: False
+  final: False
+  force_mute: True
+  audio_playback: "004-horror"
+  playback: 
+   1: "PATIENT"
+   2: "PATIENT"
+   3: "PATIENT"
+characters:
+  - display_name: "Video of Previous Patient"
+    behavior: "b_ERROR_playfake_patient"
+exits:
+  - condition:  null
+    target   : s_ERROR_wrong_patient

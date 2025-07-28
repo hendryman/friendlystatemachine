@@ -1,0 +1,18 @@
+scene:
+  name: "Diary"
+  description: "Did you bring your diary?"
+  initial: False
+  final: False
+  audio_playback: "003-therapy"
+  auto_think: false
+
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Regular"
+    behavior: "b_DREAM_diary_did_bring"
+    llm_name: "grok-beta"
+exits:
+  - condition:  complete and has_a_dream
+    target   : "s_DREAM_was_told"
+  - condition:  complete and not has_a_dream
+    target   : "s_DREAM_wasnt_told"

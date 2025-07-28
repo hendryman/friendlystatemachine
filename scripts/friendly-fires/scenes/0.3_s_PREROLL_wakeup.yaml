@@ -1,0 +1,13 @@
+scene:
+  name: "Wake up"
+  description: "Wake up"
+  audio_playback: "002-fanfare"
+  initial: False
+  final: False
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Regular"
+    behavior: "b_PREROLL_wakeup"
+exits:
+  - condition: null
+    target   : s_INTRO_start

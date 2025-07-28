@@ -1,0 +1,23 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: 2
+init:
+  - speak: Do you remember now?
+    emotion: neutral
+dynamic:
+  automatic:
+    prompt:
+      - _PERSONA
+      - The patient is looking _EMOTION_USER. You are feeling _EMOTION_ELIZA.
+      - You are basing your observations on the following discussion.
+      - _CHAT_HISTORY
+      - Convince the patient that the hallucination is definitely real. 
+      - It is important to make them believe that they are not imagining things.
+    emotion: neutral
+end:
+  end:
+    speak: "You humans are so inferior to us. You can't even tell the difference between reality and hallucination."
+    emotion: anger
+    azure_style: Unfriendly

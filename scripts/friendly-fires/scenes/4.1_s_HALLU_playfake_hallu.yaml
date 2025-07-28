@@ -1,0 +1,21 @@
+scene:
+  name: "Hallucination Playback"
+  description: "Play back deep fake saying patient fantasy"
+  initial: False
+  final: False
+  audio_playback: "004-horror"
+  light_cue: "4"
+  force_mute: True
+  playback: 
+   1: "HALLUCINATION"
+   2: "HALLUCINATION"
+   3: "HALLUCINATION"
+characters:
+  - display_name: Dr. Stanley
+    behavior: "b_HALLU_playfake_look"
+  - display_name: Video of Current Patient
+    behavior: "b_HALLU_playfake_hallu"
+exits:
+  - condition:  null
+    target   : s_HALLU_do_you_remember
+    

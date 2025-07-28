@@ -1,0 +1,24 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  - speak: "Do you feel like a puppet yourself?"
+    emotion: "happy"
+
+# Dynamic state.
+dynamic:
+  automatic:
+    prompt:
+      - _PERSONA
+      - You are interested in exploring the case history of the patient, focusing on their childhood.
+      - Here are examples of dialogues and possible responses for you as therapist.
+      - _FEW_SHOTS
+      - The patient is looking _EMOTION_USER. You are feeling _EMOTION_ELIZA.
+      - You are basing your observations on the following discussion.
+      - _CHAT_HISTORY
+      - Comment on the Patient's answer and ask how they feel about that.
+      - Respond as therapist to the last line of dialogue said by Patient. You NEVER say more than two sentences at once. Keep your answers SHORT. Speak CLEARLY and CONCISELY.
+    emotion: neutral
+

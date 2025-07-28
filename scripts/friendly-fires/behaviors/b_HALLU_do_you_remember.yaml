@@ -1,0 +1,10 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  - speak: Do you remember now?
+    emotion: neutral
+
+

@@ -1,0 +1,14 @@
+scene:
+  name: "Wrongvideo: Apology"
+  description: "So sorry!"
+  initial: False
+  final: False
+  force_mute: True
+  audio_playback: "004-horror"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Pushy"
+    behavior: "b_ERROR_wrong_patient"
+exits:
+  - condition: null
+    target   : s_ERROR_playfake_employee

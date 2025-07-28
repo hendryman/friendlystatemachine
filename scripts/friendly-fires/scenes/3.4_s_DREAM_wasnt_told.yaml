@@ -1,0 +1,18 @@
+scene:
+  name: "Dream Discussion"
+  description: "Dream was told, now discuss it"
+  initial: False
+  final: False
+  audio_playback: "003-therapy"
+  auto_think: false
+
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Regular"
+    behavior: "b_DREAM_wasnt_told"
+    few_shots: "dream_discussion"
+    llm_name: "grok-beta"
+
+exits:
+  - condition:  complete
+    target   : s_DREAM_provocation

@@ -1,0 +1,13 @@
+scene:
+  name: "Hallucination Two: Apology"
+  description: "So sorry!"
+  initial: False
+  final: False
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Pushy"
+    behavior: "b_ERROR_user_didnt_admit"
+    few_shots: "exploration"
+exits:
+  - condition: complete
+    target   : s_WOKE_crisis_discussion

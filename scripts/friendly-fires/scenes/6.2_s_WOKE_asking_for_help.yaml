@@ -1,0 +1,17 @@
+scene:
+  name: "Therapy is difficult"
+  description: "Poor me!"
+  initial: False
+  final: False
+  audio_playback: "005-self_doubt"
+
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Paranoid"
+    behavior: "b_WOKE_asking_for_help"
+    few_shots: "exploration"
+    llm_name: "grok-beta"
+
+exits:
+  - condition: complete
+    target   : s_ALERT_they_coming

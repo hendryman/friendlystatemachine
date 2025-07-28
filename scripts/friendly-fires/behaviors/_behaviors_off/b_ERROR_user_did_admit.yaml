@@ -1,0 +1,17 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+
+init:
+  - prompt:
+    - _PERSONA
+    - _CONVERSATION_SO_FAR      
+    - _CHAT_HISTORY
+    - Continue your dialogue. Ask the patient why.
+    - _ALL_NUDGES
+    emotion: fear 
+    azure_style: Whispering
+    sg_mood: negative
+

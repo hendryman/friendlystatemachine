@@ -1,0 +1,13 @@
+{
+    "first": "Hans",
+    "last": "Mustermann",
+    "age": "47",
+    "job": "Teacher",
+    "place": "Lucerne",
+    "mail": "office@siliconstories.ch",
+    "computer_relationship": "Hate Them",
+    "ai_experience": "Hardly",
+    "startup_invest": "Yes",
+    "startup_amount": "CHF 2000",
+    "form_plaintext": "The name of your patient is Hans Mustermann. Their gender is Male. They are 47 years old. Their occupation is Teacher. They live in Lucerne. Relationship with computers: Hate Them.Experience with Artificial Intelligence: Hardly.Would invest CHF 2000 in an AI Therapy startup."
+}

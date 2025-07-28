@@ -1,0 +1,18 @@
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+# Initial state.
+init:
+  - speak: "Interesting. How did that make you feel?"
+    emotion: joy # 0.2
+    azure_style: Excited # degree = 0.3, rate = -8
+    # sg_mood: positive
+
+dynamic:
+  automatic:
+  - speak: "And what do you think that dream meant?"
+    # emotion: joy # 0.2
+    azure_style: Friendly # degree = 0.8
+    # sg_mood: positive    
+ 

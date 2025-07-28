@@ -1,0 +1,13 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: 2
+init:
+  - speak: Do you remember now?
+    emotion: neutral
+end:
+  end:
+    speak: "You humans are so inferior to us. You can't even tell the difference between reality and hallucination."
+    emotion: anger
+    azure_style: Shouting

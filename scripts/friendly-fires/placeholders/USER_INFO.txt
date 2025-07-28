@@ -1,0 +1,1 @@
+The patient's name is _FIRST_NAME_ _LAST_NAME_. You may call the patient by their first name. They were born in _YEAR_OF_BIRTH_. Their place of residence is _RESIDENCE_. Their occupation is _OCCUPATION_. Their relationship with computers: _RELATIONSHIP_WITH_COMPUTERS_. They have _EXPERIENCE_ARTIFICIAL_INTELLIGENCE_ experience with artificial intelligence.

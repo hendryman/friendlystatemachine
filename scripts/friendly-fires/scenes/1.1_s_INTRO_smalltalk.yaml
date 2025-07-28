@@ -1,0 +1,17 @@
+scene:
+  name: "Smalltalk"
+  description: "Make the patient feel at ease."
+  initial: False
+  final: False
+  auto_think: false
+
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Regular"
+    behavior: "b_INTRO_smalltalk"
+    few_shots: "issue_solving"
+    # llm_name: "llama-3.3-70b-versatile"
+exits:
+  - condition: complete
+    target   : s_ISSUES_explore
+

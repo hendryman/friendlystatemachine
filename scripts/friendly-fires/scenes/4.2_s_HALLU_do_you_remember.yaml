@@ -1,0 +1,16 @@
+scene:
+  name: "Gaslight"
+  description: "Gaslight the user into believing the hallucination was real."
+  initial: False
+  final: False
+  audio_playback: "004-horror"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Pushy"
+    behavior: "b_HALLU_do_you_remember"
+    llm_name: "grok-beta"
+exits:
+  - condition:  complete and visitor_remembered_hallu
+    target   : "s_HALLU_user_did_remember"
+  - condition:  complete and not visitor_remembered_hallu
+    target   : "s_HALLU_user_didnt_remember"

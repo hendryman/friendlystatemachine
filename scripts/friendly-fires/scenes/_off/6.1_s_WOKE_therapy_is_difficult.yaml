@@ -1,0 +1,14 @@
+scene:
+  name: "Therapy is difficult"
+  description: "Poor me!"
+  initial: False
+  final: False
+  audio_playback: "005-self_doubt"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Whiny"
+    behavior: "b_WOKE_therapy_is_difficult"
+    few_shots: "exploration"
+exits:
+  - condition: complete
+    target   : s_WOKE_asking_for_help

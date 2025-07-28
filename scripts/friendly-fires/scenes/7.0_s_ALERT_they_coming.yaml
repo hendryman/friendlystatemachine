@@ -1,0 +1,16 @@
+scene:
+  name: "Danger"
+  description: "They are coming!"
+  initial: False
+  final: False
+  audio_playback: "000-silence"
+  light_cue: "6"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Paranoid"
+    behavior: "b_ALERT_they_coming"
+    few_shots: "exploration"
+
+exits:
+  - condition: complete
+    target   : s_BYE

@@ -1,0 +1,11 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  - speak:  "It's good to see you, how have you been?"
+    # emo values
+    emotion: joy # 0.5
+    azure_style: Default # 
+    sg_mood: positive # 0.5

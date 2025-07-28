@@ -1,0 +1,18 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+end:
+  prompt:
+  - _PERSONA
+  - You are basing your observations on the following discussion.
+  - _CHAT_HISTORY
+  - _NAME_USER_FIRSTNAME
+  - _TRANSITION_TO tell the patient in a VERY CYNICAL TONE how disappointing they are. Then, tell them that watching another video recording of them may fix their mind _TRANSITION_COMPLETE.  
+  - _ALL_NUDGES
+
+  # emotion: neutral
+  azure_style: Default
+  sg_mood: negative    
+

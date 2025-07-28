@@ -1,0 +1,17 @@
+
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+# Initial state.
+init:
+  speak: 
+    - "I prepared a text for you to read. Please would you like to do that now?"
+    - "It's under the Kleenex box."
+  emotion: neutral
+
+# Dynamic state.
+dynamic:
+  automatic:
+    speak: "Go on, read it to me."
+    emotion: neutral

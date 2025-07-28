@@ -1,0 +1,9 @@
+name: user_admits_fantasy
+llm_name: grok-beta
+return_type: json
+prompt: |-
+  _CHAT_HISTORY
+
+  Did the patient admit that the video playback was really them?
+  If yes answer `TRUE`
+  If no answer `FALSE`

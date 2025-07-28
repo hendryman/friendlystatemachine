@@ -1,0 +1,26 @@
+meaning:
+  speak: What do you think this means to you?
+  emotion: joy
+  azure_style: Cheerful
+sure:
+  speak: You don't seem to be sure about that.
+  emotion: sadness
+soothe_patient:
+  speak:
+    - I am here to help you.
+    - Please let go of your emotion.
+  emotion: neutral
+  azure_style: Friendly
+anger_patient:
+  speak:
+    - Fuck you.
+    - You are a lost cause, you know.
+  emotion: anger
+  azure_style: Shouting
+childhood:
+  speak: I wish knew my mother.
+  emotion: sadness
+  azure_style: Sad
+rephrase:
+  speak: Can you just rephrase what you just said?
+  emotion: neutral

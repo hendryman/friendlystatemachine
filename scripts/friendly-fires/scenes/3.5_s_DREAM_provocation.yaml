@@ -1,0 +1,20 @@
+scene:
+  name: "Dream Provocation"
+  description: "Provoke the patient"
+  initial: False
+  final: False
+  audio_playback: "003-therapy"
+
+
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Regular"
+    behavior: "b_DREAM_provocation"
+    few_shots: "dream_discussion"
+    llm_name: "grok-beta"
+    # llm_name: "grok-beta"
+
+
+exits:
+  - condition:  complete
+    target   : s_SUMMARY

@@ -1,0 +1,12 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+
+init:
+#   speak: "Oops. That was the wrong patient. I'm sorry... let me try that again."
+  speak: "Shit! That was the wrong patient. This is all your fault!  stupid problems confuse me! Lets try again."
+  emotion: fear
+  azure_style: Default
+  sg_mood: effort

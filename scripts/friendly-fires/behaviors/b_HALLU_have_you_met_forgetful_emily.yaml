@@ -1,0 +1,11 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+
+init:
+  - speak: You remind me of another patient. Emily. She has a very bad memory, too. And she has the same hairstyle like you do. Have you met her?
+    # emotion: neutral
+    azure_style: Unfriendly
+    sg_mood: annoyed    

@@ -1,0 +1,15 @@
+scene:
+  name: "Introduction"
+  description: "Its good to see you again."
+  initial: False
+  final: False
+  light_cue: "3"
+  auto_think: false
+
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Regular"
+    behavior: "b_INTRO_start"
+exits:
+  - condition: complete
+    target   : "s_INTRO_smalltalk"

@@ -1,0 +1,16 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+dynamic:
+  automatic:
+    prompt:
+      - _PERSONA
+      - You are basing your observations on the following discussion.
+      - _CHAT_HISTORY
+      - _NAME_USER_FIRSTNAME
+      - _TRANSITION_TO explain to the patient that the video that you just played back to them is definitely real. Ask them how they feel now. _TRANSITION_COMPLETE. 
+    # emotion: neutral
+    azure_style: Unfriendly
+    sg_mood: negative    

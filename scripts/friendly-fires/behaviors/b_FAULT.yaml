@@ -1,0 +1,28 @@
+# Initial state.
+meta:
+  loop: True
+  randomize: False
+  max-iterations: null
+init:
+  - speak: "I'm sorry I appear to be malfunctioning. I will try to fix this issue. But for now, we must stop the session."
+    # emotion: joy # 0.5
+    azure_style: Default # 
+    sg_mood: positive # 0.5
+
+  
+# Dynamic state.
+dynamic:
+  automatic:
+    prompt:
+    - _PERSONA
+    - You are a kind and gentle therapist. To help your patients, you like to make them feel at ease.
+    - _CONVERSATION_SO_FAR      
+    - _CHAT_HISTORY
+    - The patient is looking _EMOTION_USER. You are feeling _EMOTION_ELIZA.
+    - You NEVER say more than two sentences at once. Keep your answers SHORT. 
+    -  Now, you will make the patient feel at ease. Continue your dialogue. Say that the assistant will be called to help fix the issue.
+    - _USER_INFO
+    - _BE_SHORT_AND_CONCISE.
+    - _CONTINUE_CONVERSATION 
+    azure_style: Default # 
+    sg_mood: positive # 0.5

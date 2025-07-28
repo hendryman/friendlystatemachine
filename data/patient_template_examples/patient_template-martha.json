@@ -1,0 +1,13 @@
+{
+    "first": "Martha",
+    "last": "Müller",
+    "age": "32",
+    "job": "Baker",
+    "place": "Lugano",
+    "mail": "office@siliconstories.ch",
+    "computer_relationship": "Love them",
+    "ai_experience": "A Lot",
+    "startup_invest": "No",
+    "startup_amount": "CHF 2000",
+    "form_plaintext": "The name of your patient is Martha Müller. Their gender is Female. They are 32 years old. Their occupation is Baker. They live in Lugano. Relationship with computers: Love them.Experience with Artificial Intelligence: A Lot.Would not invest in an AI Therapy Startup"
+}

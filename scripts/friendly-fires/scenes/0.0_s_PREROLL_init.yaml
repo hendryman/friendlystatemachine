@@ -1,0 +1,14 @@
+scene:
+  name: "Initial scene"
+  description: "Init"
+  initial: True
+  final: False
+  audio_playback: "001-intro_outro"
+  light_cue: "1"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Regular"
+    behavior: "b_PREROLL_init"
+exits:
+  - condition: null
+    target   : s_PREROLL_clerk

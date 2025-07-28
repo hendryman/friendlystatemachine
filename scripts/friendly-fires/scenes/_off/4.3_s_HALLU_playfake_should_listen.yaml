@@ -1,0 +1,18 @@
+scene:
+  name: "Deepfake Lets Listen"
+  description: "Deepfake suggests listening to the doctor"
+  initial: False
+  final: False
+  force_mute: True
+  audio_playback: "004-horror"
+  playback: 
+   1: "DEEPFAKE_VIDEO_LISTEN_TO_DOCTOR"
+   2: "DEEPFAKE_VIDEO_LISTEN_TO_DOCTOR"
+   3: "DEEPFAKE_VIDEO_LISTEN_TO_DOCTOR"
+  auto_think: false
+characters:
+  - display_name: "Video of Current Patient"
+    behavior: "b_HALLU_playfake_should_listen"
+exits:
+  - condition:  null
+    target   : s_HALLU_have_you_met_emily

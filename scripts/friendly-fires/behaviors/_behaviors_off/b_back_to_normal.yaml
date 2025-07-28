@@ -1,0 +1,9 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  speak: "[After Loooong Pause Thinking] I apologize for my malfunction. My systems have now been recalibrated. Is there anything else that you would like to discuss?"
+  preanimation: "look_up"
+

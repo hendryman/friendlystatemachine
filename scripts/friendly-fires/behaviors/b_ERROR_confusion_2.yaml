@@ -1,0 +1,15 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  - speak: "Omple... grrz zzzz! Sharlz... piblewick."
+    emotion: fear
+    azure_style: Terrified
+    sg_mood:
+      - mood: negative
+      - scale: 1.2
+      - frequency: 10
+
+

@@ -1,0 +1,20 @@
+name: derive_issue
+llm_name: grok-beta
+return_type: json
+prompt: |-
+  _CHAT_HISTORY
+
+  What is the patients biggest issue?
+  Make it a statement in the form of 'I', as in:
+  I am feeling really overwhelmed in my relationship right now. My partner doesn't seem to understand me.
+  The pain has been relentless this week, it's like it never stops.
+  I can't even look out of a window from the second floor without feeling dizzy.
+  I lose control so easily these days; it's like I'm not even me.
+  I've been feeling really anxious in social settings lately, especially when I have to speak in front of others. I just freeze up.
+  My partner and I have been arguing a lot recently. It's exhausting.
+  My OCD has been really bad lately. I feel like I need to wash my hands constantly.
+  My fear of spiders is getting worse. I can't even look at a picture of one without panicking.
+  I'm frustrated because my garden keeps getting overrun by weeds.
+  I've been feeling very anxious about public speaking.
+  I've been really annoyed by my neighbor's loud music at night.
+  output as json, using 'problem' as the field name

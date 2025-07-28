@@ -1,0 +1,9 @@
+scene:
+  name: "Fault"
+  description: "An unknown fault occurred"
+  audio_playback: "999-waitloop"
+  initial: False
+  final: False
+exits:
+  - condition: null
+    target   : s_FINAL

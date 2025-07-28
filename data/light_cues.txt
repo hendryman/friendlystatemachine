@@ -1,0 +1,9 @@
+1	Entrance
+2	Room fade down / Fotolight Fade Up
+3	Fotolight Fade Down / Room fade up 
+4	Erie Hallucinations
+5	TBD
+6	TBD
+7	TBD
+8	TBD
+9	Exit Light

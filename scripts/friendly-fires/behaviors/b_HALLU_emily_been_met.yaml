@@ -1,0 +1,18 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+end:
+  prompt:
+  - _PERSONA
+  - You are basing your observations on the following discussion.
+  - _CHAT_HISTORY
+  - _NAME_USER_FIRSTNAME
+  - _TRANSITION_TO congratulate the user IN A VERY CYNICAL TONE that they finally remember.  Then, tell them that watching another video recording of them may make them remember more of their dirty fantasies. _TRANSITION_COMPLETE
+  - _ALL_NUDGES
+
+  # emotion: neutral
+  azure_style: Default
+  sg_mood: negative    
+

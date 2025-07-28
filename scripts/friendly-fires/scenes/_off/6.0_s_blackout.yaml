@@ -1,0 +1,15 @@
+scene:
+  name: "Blackout"
+  description: "System Shutdown."
+  initial: False
+  final: False
+  audio_playback: "006-exit"
+  light_cue: "9"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Regular"
+    behavior: "b_back_to_normal"
+    llm_name: "grok-beta"
+exits:
+  - condition: complete
+    target   : "s_end"

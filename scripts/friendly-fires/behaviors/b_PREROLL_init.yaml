@@ -1,0 +1,6 @@
+meta:
+  loop: True
+  randomize: False
+  max-iterations: null
+init:
+  meatstate: idle

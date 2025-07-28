@@ -1,0 +1,10 @@
+scene:
+  name: "Fanfare and Lights"
+  description: "Fanfare and Lights"
+  initial: False
+  final: False
+  audio_playback: "002-fanfare"
+  light_cue: "2"
+exits:
+  - condition: timeout_preroll
+    target   : s_PREROLL_wakeup

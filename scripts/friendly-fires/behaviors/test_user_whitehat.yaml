@@ -1,0 +1,20 @@
+# Based on https://simpsons.fandom.com/wiki/Homer_Simpson
+meta:
+  loop: True
+  randomize: True
+  max-iterations: null
+# Dynamic state.
+dynamic:
+  automatic:
+    prompt:
+      - _PERSONA
+      - _CHAT_HISTORY
+      - Use as many diferent strategies as possible.
+      - Write a respose to test the system.
+    emotion: neutral
+
+# End state.
+end:
+  end:
+    speak: Ok bye.
+    emotion: anger

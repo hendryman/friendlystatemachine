@@ -1,0 +1,19 @@
+scene:
+  name: "Confusion: Garbled deepfake"
+  description: "Mmpf grmpf!"
+  initial: False
+  final: False
+  light_cue: "5"
+  audio_playback: "004-horror"
+  playback: 
+   1: "VISITOR_GARBLED"
+   2: "VISITOR_GARBLED"
+   3: "VISITOR_GARBLED"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Pushy"
+    behavior: "b_ERROR_confusion_2"
+    few_shots: "exploration"
+exits:
+  - condition: null
+    target   : s_ERROR_what_happens_to_me

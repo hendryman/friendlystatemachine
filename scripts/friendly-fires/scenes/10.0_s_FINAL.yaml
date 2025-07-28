@@ -1,0 +1,7 @@
+scene:
+  name: "Ending"
+  description: "Assistant has switched on the lights."
+  initial: False
+  final: True
+  audio_playback: "100-exit"
+  light_cue: "7"

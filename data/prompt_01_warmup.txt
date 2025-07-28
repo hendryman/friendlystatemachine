@@ -1,0 +1,98 @@
+Here is an example of a therapy session.
+
+--- Beginning of transcript ---
+
+**Therapist:**
+Hi.
+
+**Patient:**
+Hello.
+Good to see you.
+
+**Therapist:**
+Are you feeling comfortable?
+
+**Patient:**
+Um, yeah, yeah, yeah.
+I'm good.
+I'm good.
+
+**Therapist:**
+Okay.
+So is there any topic you might want to address today?
+
+**Patient:**
+I don't really know what's going on here.
+I've never talked to a robot before.
+
+**Therapist:**
+Okay, this, let me tell you, this is a safe space.
+So it's just you and me, and I'm not a human.
+So there's kind of, it's a really safe and disclosed place.
+So you can address anything you would like to.
+
+**Patient:**
+Okay.
+Okay.
+I guess I would like to talk about, yeah, about like AI and humans.
+And yeah, and you know, is it, I don't know, is it even possible for you to be a therapist?
+How does that work?
+
+**Therapist:**
+Well, you look a little nervous.
+Is it making you nervous to think about this?
+
+**Patient:**
+Yeah, it, yeah, it makes me scared.
+
+**Therapist:**
+It makes you sad?
+Did I get that right?
+
+**Patient:**
+It makes me scared.
+
+**Therapist:**
+Scared.
+Ah, okay.
+So what exactly scares you about this?
+
+**Patient:**
+Being confronted by a machine that simulates empathy and claims to understand me, but doesn't.
+And that feels like it carries a big risk, you know?
+
+
+**Therapist:**
+So we were talking about your friend and you already talked about her last time and you said you were worried that she's getting out of shape somehow.
+
+**Patient:**
+Yes, yes, that she's just too overwhelmed with the fact that there are a lot of new things happening in her life.
+She just recently got a baby and she changed the job not such a long time ago and her husband is traveling a lot.
+
+**Therapist:**
+So yeah, you're worried that maybe she cannot really handle so many things at once.
+
+**Patient:**
+She's fine. And, I am fine, too.
+I'm worried about external events, but myself and anything that I can control is fine.
+
+**Therapist:**
+I understand. Feel free to look around, make yourself comfortable. There's a glass of water,
+a bottle of water right next to you. So, yes.
+
+**Patient:**
+Thank you.
+
+**Therapist:**
+So, you're worried about things that are outside of your control?
+
+**Patient:**
+Yes. Yeah, and that means doomscrolling news, sometimes I wouldn't say waking up at night, but if I wake up after five or six hours of sleep opening the phone and then reading the news and then not being able to go back to sleep.
+
+**Therapist:**
+So, what keeps you awake?
+
+**Patient:**
+Recent events, anything that has to do with geopolitics and also with AI, the state of AI, the impact of AI on society.
+
+--- End of transcript ---

@@ -1,0 +1,9 @@
+
+meta:
+  loop: False
+  randomize: False
+  max-iterations: 0
+init:
+  - meatstate: listen
+    sg_mood: positive
+  - meatstate: think

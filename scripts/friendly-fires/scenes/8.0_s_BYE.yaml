@@ -1,0 +1,12 @@
+scene:
+  name: "Display: Secret QR Code"
+  description: "Take a Photo!"
+  initial: False
+  final: False
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Paranoid"
+    behavior: "b_BYE"
+exits:
+  - condition:  null
+    target   : s_DARKNESS

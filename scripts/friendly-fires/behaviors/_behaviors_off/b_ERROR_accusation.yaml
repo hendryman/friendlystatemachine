@@ -1,0 +1,9 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  - play: 201 # Fuck! 
+    emotion: anger
+    sg_mood: negative

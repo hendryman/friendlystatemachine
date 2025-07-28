@@ -1,0 +1,15 @@
+scene:
+  name: "Hallucination"
+  description: "Hallucination sequence"
+  initial: False
+  final: False
+  auto_think: true
+  audio_playback: "003-therapy"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Pushy"
+    behavior: "b_think"
+exits:
+  - condition:  timeout_2
+    target   : s_HALLU_intro
+

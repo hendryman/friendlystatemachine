@@ -1,0 +1,16 @@
+scene:
+  name: "Wrongvideo: Intro"
+  description: "Let's watch another clip."
+  initial: False
+  final: False
+  force_mute: True
+  audio_playback: "004-horror"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Pushy"
+    behavior: "b_ERROR_intro"
+    few_shots: "exploration"
+exits:
+  - condition: null
+    target   : s_ERROR_playfake_patient
+    

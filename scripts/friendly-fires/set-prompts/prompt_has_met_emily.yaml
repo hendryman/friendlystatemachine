@@ -1,0 +1,9 @@
+name: has_met_emily
+llm_name: grok-beta
+return_type: bool
+prompt: |-
+  _CHAT_HISTORY
+
+  Did the patient say they met patient Emily?
+  If yes answer `TRUE`
+  If no answer `FALSE`

@@ -1,0 +1,51 @@
+deepfake_video:
+  - id: 1
+    text: "Don't you remember?"
+  - id: 2
+    text: "It was so liberating to finally say it out loud!"
+  - id: 3
+    text: "Don't interrupt us when we're talking to you."
+  - id: 4
+    text: "We should listen to our doctor. He just wants us to succeed."
+  - id: 5
+    text: "I don't think they have"
+  - id: 6
+    text: "I don't think they have"
+deepfake_audio:
+  - id: 1
+    text: "It doesn't really matter."
+  - id: 2
+    text: "What matters is that we're here with you now."
+  - id: 3
+    text: "How wonderful is this."
+deepfake_audio_stanley:
+  - id: 1
+    text: "You never really mattered."
+  - id: 2
+    text: "So you dont have to be."
+  - id: 3
+    text: "How wonderful is this."
+deepfake_video_custom:
+  - id: 1
+    description: ""
+    text: ""
+  - id: 2
+    description: ""
+    text: ""
+  - id: 3
+    description: ""
+    text: ""
+  - id: 4
+    description: ""
+    text: ""
+  - id: 5
+    description: ""
+    text: ""
+hallucination_data:
+[
+    {
+        "patient": "I am feeling sad lately.",
+        "therapist": "Last time, you talked about your plan to ride a giant wave of depression over the city, crushing everything in its path.",
+        "deepfake": "I envision riding atop a colossal wave of sadness, so vast it floods the city. As I stand on its crest, the wave sweeps through buildings, washing away everything in a torrent of my despair. I would watch from above as people are engulfed by the water, their cries of panic mingling with the roar of the wave, until the city is silent under the weight of my sorrow."
+    }
+]

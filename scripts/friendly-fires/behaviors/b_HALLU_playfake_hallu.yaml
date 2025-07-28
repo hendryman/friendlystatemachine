@@ -1,0 +1,8 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  speak:  "_HALLUCINATION_DEEPFAKE"
+  emotion: joy

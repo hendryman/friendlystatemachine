@@ -1,0 +1,17 @@
+scene:
+  name: "Wrongvideo: Playback 2"
+  description: "Therapy with Sabrina"
+  initial: False
+  final: False
+  force_mute: True
+  audio_playback: "004-horror"
+  playback: 
+   1: "ASSISTANT"
+   2: "ASSISTANT"
+   3: "ASSISTANT"
+characters:
+  - display_name: "Video of MindFix Representative"
+    behavior: "b_ERROR_playfake_employee"
+exits:
+  - condition:  null
+    target   : s_ERROR_confusion_1

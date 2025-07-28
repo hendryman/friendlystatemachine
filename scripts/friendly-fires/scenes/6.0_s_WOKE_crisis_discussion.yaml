@@ -1,0 +1,18 @@
+scene:
+  name: "Hallucination Two: Apology"
+  description: "So sorry!"
+  initial: False
+  final: False
+  audio_playback: "005-self_doubt"
+  playback: 
+   1: "STANLEY"
+   2: "STANLEY"
+   3: "STANLEY"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Whiny"
+    behavior: "b_WOKE_crisis_discussion"
+    few_shots: "exploration"
+exits:
+  - condition: complete
+    target   : s_WOKE_asking_for_help

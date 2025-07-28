@@ -1,0 +1,7 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  - meatstate: idle

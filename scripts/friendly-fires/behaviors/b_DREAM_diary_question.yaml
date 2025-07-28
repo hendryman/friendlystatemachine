@@ -1,0 +1,14 @@
+
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+# Initial state.
+init:
+  - prompt: 
+    - "continue the conversation."
+    - "ask the patient: 'Did you bring your diary with you?'"
+    emotion: joy # 0.2
+    azure_style: Excited # degree = 0.3, rate = -8
+  # sg_mood: positive
+

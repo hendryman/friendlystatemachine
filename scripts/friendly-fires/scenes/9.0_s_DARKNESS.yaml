@@ -1,0 +1,13 @@
+scene:
+  name: "Ending"
+  description: "The patient has been cured."
+  initial: False
+  final: False
+  audio_playback: "100-exit"
+  force_mute: True
+characters:
+  - display_name: "Dr. Stanley"
+    behavior: "b_SLEEP"
+exits:
+  - condition:  timeout_exit
+    target   : s_FINAL

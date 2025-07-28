@@ -1,0 +1,14 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  - speak: You say _ISSUE, but you can't even remember your own dreams.
+    emotion: disgust
+    azure_style: Unfriendly
+end:
+  end:
+    speak: "Dry your eyes and get a grip on yourself. Like your clones do."
+    emotion: disgust
+    azure_style: Shouting

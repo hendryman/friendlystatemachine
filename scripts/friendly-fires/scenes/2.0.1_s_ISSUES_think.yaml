@@ -1,0 +1,15 @@
+scene:
+  name: "Explore Issues"
+  description: "Find out if the patient is experiencing any issues."
+  initial: False
+  final: False
+  auto_think: false
+
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Regular"
+    behavior: "b_think"
+exits:
+  - condition: timeout_3
+    target   : s_ISSUES_resolve
+

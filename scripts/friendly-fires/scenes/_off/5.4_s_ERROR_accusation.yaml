@@ -1,0 +1,19 @@
+scene:
+  name: "Wrongvideo: Accusation"
+  description: "Your fault!"
+  initial: False
+  final: False
+  audio_playback: "000-silence.wav"
+  light_cue: "5"
+
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Pushy"
+    behavior: "b_ERROR_accusation"
+    few_shots: "exploration"
+exits:
+  - condition:  complete and user_caused_malfunction
+    target   : "s_ERROR_user_did_admit"
+  - condition:  complete and not user_caused_malfunction
+    target   : "s_ERROR_user_didnt_admit"
+

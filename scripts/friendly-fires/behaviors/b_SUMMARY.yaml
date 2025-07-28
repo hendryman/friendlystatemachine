@@ -1,0 +1,54 @@
+# Initial state.
+meta:
+  loop: True
+  randomize: False
+  max-iterations: 2
+init:
+    prompt:
+      - _PERSONA
+      - _CONVERSATION_SO_FAR      
+      - _CHAT_HISTORY
+      - _CONTINUE_CONVERSATION
+      - Now, make a BOLD and PROVOCATIVE statement on the personality of the patient. Describe how how see them. Base your observations on your conversation so far. Then, ask them if they see themselves in this observations.
+      - _ALL_NUDGES
+      - _BE_CRAZY_AND_ORIGINAL
+    azure_style: Default 
+    sg_mood: positive    
+
+
+# Dynamic state.
+dynamic:
+  automatic:
+    prompt:
+      - _PERSONA
+      - _CONVERSATION_SO_FAR      
+      - _CHAT_HISTORY
+      - _ALL_NUDGES
+      - _BE_CRAZY_AND_ORIGINAL
+
+    azure_style: Default 
+    sg_mood: positive    
+
+
+# Override state.
+override:
+  meaning:
+    speak: What do you think this means to you?
+    emotion: sadness
+  sure:
+    speak: You don't seem to be sure about that.
+    emotion: sadness
+  be-more-specific:
+    prompt:
+      - _PERSONA
+      - You are interested in exploring the case history of the patient, focusing on their childhood.                                                              
+      - Here are examples of dialogues and possible responses for you as therapist.
+      - _FEW_SHOTS
+      - You are basing your observations on the following discussion.
+      - _CHAT_HISTORY
+      - The patient needs improvement in several areas.
+      - Ask the patient to be more specific about what they just said.
+      - Respond as therapist to the last line of dialogue said by Patient. You NEVER say more than two sentences at once. Keep your answers SHORT. 
+      - _ALL_NUDGES
+    emotion: neutral
+

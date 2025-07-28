@@ -1,0 +1,18 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+
+
+init:
+  - prompt:
+    - _PERSONA
+    - _CONVERSATION_SO_FAR      
+    - _CHAT_HISTORY
+    - _TRANSITION_TO APOLOGIZE to them. ADMIT you have lost control of the situation. Describe your inner state. Do NOT suggest to get back on track, or focus on you again, or resume the session. _TRANSITION_COMPLETE. 
+    - _ALL_NUDGES
+    emotion: fear 
+    azure_style: Whispering
+    sg_mood: negative
+

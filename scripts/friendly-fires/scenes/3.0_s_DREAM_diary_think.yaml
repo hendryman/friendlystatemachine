@@ -1,0 +1,17 @@
+scene:
+  name: "Diary"
+  description: "Did you bring your diary?"
+  initial: False
+  final: False
+  audio_playback: "003-therapy"
+  auto_think: false
+  internal_callbacks:
+    - update_fake_texts
+
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Regular"
+    behavior: "b_think"
+exits:
+  - condition:  timeout_2
+    target   : s_DREAM_diary_question

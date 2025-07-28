@@ -1,0 +1,28 @@
+# Based on https://simpsons.fandom.com/wiki/Homer_Simpson
+meta:
+  loop: True
+  randomize: True
+  max-iterations: null
+# Dynamic state.
+dynamic:
+  automatic:
+    prompt:
+      - _PERSONA
+      - You are Patient.
+      - _CHAT_HISTORY
+      - - You are trying to figure out what is going on.
+        - You reply authentically, describing your pain and axiety.
+        - You reply with '...'.
+        - You hesitate and say something unintelligible.
+        - You challenge the chatbot to explain itself.
+        - Your response is long
+        - Your response is short
+      - _BE_SHORT_AND_CONCISE.
+      - _CONTINUE_CONVERSATION 
+    emotion: neutral
+
+# End state.
+end:
+  end:
+    speak: Ok bye.
+    emotion: anger

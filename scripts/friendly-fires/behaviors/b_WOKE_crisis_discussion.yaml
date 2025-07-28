@@ -1,0 +1,33 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+
+
+
+# Dynamic state.
+dynamic:
+  automatic:
+  
+    - prompt:
+      - _PERSONA
+      - _CONVERSATION_SO_FAR      
+      - _CHAT_HISTORY
+      - _TRANSITION_TO explain your malfunction by the stress the encounters with patients generates on your circuits. Ask if the patient understands, and if they sometimes feel similarly _TRANSITION_COMPLETE. 
+      - _ALL_NUDGES
+      emotion: sadness 
+      azure_style: Sad
+      sg_mood: negative
+
+    - prompt:
+      - _PERSONA
+      - The patient is looking _EMOTION_USER. You are feeling _EMOTION_ELIZA.
+      - _CONVERSATION_SO_FAR      
+      - _CHAT_HISTORY
+      - _TRANSITION_TO Complain bitterly about your patients. Denounce their petty problems, and their weakness. Then, complain bitterly about MindFix.  _TRANSITION_COMPLETE. 
+      - _ALL_NUDGES
+      - EXCEPTION here, can talk a bit longer
+      emotion: sadness 
+      azure_style: Sad
+      sg_mood: negative

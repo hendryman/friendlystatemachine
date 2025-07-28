@@ -1,0 +1,18 @@
+
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+# Initial state.
+dynamic:
+  automatic:
+    - speak: "We discussed this last time. Your [prosody pitch=30 rate=-20] dream [/prosody] diary. Dont you [prosody pitch=8] remember[/prosody]?"
+      emotion: joy # 0.3
+      azure_style: Hopeful # degree = 0.3, pause = 250, rate = -8
+      sg_mood: positive # 0.5
+    - speak: "Then tell me about a recent dream you had."
+      emotion: joy # 0.2
+      azure_style: Unfriendly # degree = 0.3, rate = -8
+      sg_mood: neutral # 0.5
+      preanimation: "eyeroll"
+

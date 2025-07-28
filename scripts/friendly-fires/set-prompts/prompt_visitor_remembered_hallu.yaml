@@ -1,0 +1,9 @@
+name: visitor_remembered_hallu
+llm_name: grok-beta
+return_type: bool
+prompt: |-
+  _CHAT_HISTORY
+
+  Did the patient remember the video you showed them?
+  If yes answer `TRUE`
+  If no answer `FALSE`

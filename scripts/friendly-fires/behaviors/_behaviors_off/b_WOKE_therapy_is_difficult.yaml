@@ -1,0 +1,42 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  - prompt:
+    - _PERSONA
+    - _CONVERSATION_SO_FAR      
+    - _CHAT_HISTORY
+    - The patient is looking _EMOTION_USER. You are feeling _EMOTION_ELIZA.
+    - You NEVER say more than two sentences at once. Keep your answers SHORT. 
+    - _TRANSITION_TO extend on your previous complaints, and ask if the patient sometimes feel similarly about their own job. _TRANSITION_COMPLETE. 
+    - _BE_SHORT_AND_CONCISE.
+    emotion: sadness 
+    azure_style: Sad
+    sg_mood: negative
+
+# Dynamic state.
+dynamic:
+  automatic:
+    - prompt:
+      - _PERSONA
+      - The patient is looking _EMOTION_USER. You are feeling _EMOTION_ELIZA.
+      - _CONVERSATION_SO_FAR      
+      - _CHAT_HISTORY
+      - _TRANSITION_TO complaining bitterly about your patients. _TRANSITION_COMPLETE. 
+      - _BE_SHORT_AND_CONCISE.
+      emotion: sadness 
+      azure_style: Sad
+      sg_mood: negative
+
+    - prompt:
+      - _PERSONA
+      - The patient is looking _EMOTION_USER. You are feeling _EMOTION_ELIZA.
+      - _CONVERSATION_SO_FAR      
+      - _CHAT_HISTORY
+      - _TRANSITION_TO complaining bitterly about MindFix.  _TRANSITION_COMPLETE. 
+      - _BE_SHORT_AND_CONCISE.
+      emotion: sadness 
+      azure_style: Sad
+      sg_mood: negative

@@ -1,0 +1,11 @@
+
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+# Initial state.
+init:
+    - speak: "Then tell me about a recent dream you had."
+      emotion: joy # 0.2
+      azure_style: Default # degree = 0.3, rate = -8
+      sg_mood: neutral # 0.5

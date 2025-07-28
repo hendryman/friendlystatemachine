@@ -1,0 +1,9 @@
+name: has_a_dream
+llm_name: grok-beta
+return_type: bool
+prompt: |-
+  _CHAT_HISTORY
+
+  Did the patient describe a dream they had?
+  If yes answer `TRUE`
+  If no answer `FALSE`

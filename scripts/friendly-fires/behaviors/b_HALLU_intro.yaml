@@ -1,0 +1,16 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  - speak: _HALLUCINATION.
+    # emotion: neutral
+    azure_style: Default
+    # sg_mood: positive    
+end:
+  end:
+    speak: "Im glad we've recorded this. Lets have a look"
+    # emotion: joy # 0.2
+    azure_style: Default # rate = -8
+    # sg_mood: neutral    

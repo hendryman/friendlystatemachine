@@ -1,0 +1,7 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: Null
+init:
+  - speak: You remind me of my mother. She has a very bad memory, too. And she always wears these weird yellow sweaters. Just like you do. Have you met her?"

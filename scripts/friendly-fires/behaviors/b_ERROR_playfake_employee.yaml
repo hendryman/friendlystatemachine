@@ -1,0 +1,9 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+end:
+  speak:  "[Sabrina] Those patients are such idiots. I mean: talking to a machine. Are you shitting me?"
+  emotion: joy
+  azure_style: Cheerful

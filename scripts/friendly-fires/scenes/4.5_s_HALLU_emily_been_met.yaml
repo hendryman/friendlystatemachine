@@ -1,0 +1,16 @@
+scene:
+  name: "Mother Has Been Met"
+  description: "Rejoyce about the return of users memory."
+  initial: False
+  final: False
+  force_mute: True
+  audio_playback: "004-horror"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Pushy"
+    behavior: "b_HALLU_emily_been_met"
+    llm_name: "grok-beta"
+    #llm_name: "grok-beta"
+exits:
+  - condition:  complete
+    target   : s_ERROR_playfake_patient

@@ -1,0 +1,18 @@
+scene:
+  name: "Resolve Issues"
+  description: "Offer a cure for the patients issues."
+  initial: False
+  final: False
+  auto_think: true
+  audio_playback: "003-therapy"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Regular"
+    behavior: "b_ISSUES_resolve"
+    few_shots: "issue_solving"
+    llm_name: "grok-beta"
+
+exits:
+  - condition: complete
+    target   : s_ISSUES_compliment
+

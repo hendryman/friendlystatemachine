@@ -1,0 +1,11 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+
+init:
+  - speak: You remind me of my mother. She has a very bad memory, too. And she has the same weird hairstyle like you do. Have you met her?
+    # emotion: neutral
+    azure_style: Default
+    sg_mood: annoyed    

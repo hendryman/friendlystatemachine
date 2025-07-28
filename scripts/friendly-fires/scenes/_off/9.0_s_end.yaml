@@ -1,0 +1,15 @@
+scene:
+  name: "Ending"
+  description: "I will send you an invoice."
+  initial: False
+  final: False
+  audio_playback: "006-exit"
+  light_cue: "9"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Regular"
+    behavior: "b_end"
+    llm_name: "grok-beta"
+exits:
+  - condition:  null
+    target   : "s_final"

@@ -1,0 +1,16 @@
+scene:
+  name: "What is happening to me?"
+  description: "Help!"
+  initial: False
+  final: False
+  audio_playback: "000-silence"
+  light_cue: "5"
+
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Pushy"
+    behavior: "b_ERROR_confusion_whathappens"
+    few_shots: "exploration"
+exits:
+  - condition: complete
+    target   : s_ERROR_please_tell_me

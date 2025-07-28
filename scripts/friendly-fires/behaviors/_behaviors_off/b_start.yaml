@@ -1,0 +1,12 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  speak:  "It's good to see you, how have you been?"
+  emotion: happy
+end:
+  end:
+    speak: "Okay, lets get started."
+    emotion: happy

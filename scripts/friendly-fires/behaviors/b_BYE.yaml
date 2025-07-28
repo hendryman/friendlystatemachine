@@ -1,0 +1,24 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+end:
+  - prompt:
+    - _PERSONA
+    - _CONVERSATION_SO_FAR      
+    - _CHAT_HISTORY
+    - _TRANSITION_TO say 'Goodbye now', and Wish them good luck with an issue the patients has. Base the issue on your observations during the conversation. 
+    - _ALL_NUDGES
+    - VERY VERY SHORT
+    emotion: fear 
+    azure_style: Whispering
+    sg_mood: effort
+
+    # - speak: "[Lights Shut Down - PITCH BLACK. Only Mask with closed eyes glowing.]"
+    # - speak: "[Eeerie Music Still Playing]"
+    # - speak: "[Cellar Door opens, Lights fall in]"
+    # - speak: "[Sabrina: Hello?]"
+    # - speak: "[Switch on Cleaning Lights and Logos on Monitor]"
+    # - speak: "[Offboarding]"
+

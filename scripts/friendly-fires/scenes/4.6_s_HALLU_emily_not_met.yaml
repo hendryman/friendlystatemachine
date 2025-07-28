@@ -1,0 +1,16 @@
+scene:
+  name: "Mother Has Not Been Met"
+  description: "Forgive the user and promise healing."
+  initial: False
+  final: False
+  force_mute: True
+  audio_playback: "004-horror"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name: "Dr. Stanley Pushy"
+    behavior: "b_HALLU_emily_not_met"
+    llm_name: "grok-beta"
+    #llm_name: "grok-beta"
+exits:
+  - condition:  complete
+    target   : s_ERROR_playfake_patient

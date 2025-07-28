@@ -1,0 +1,12 @@
+scene:
+  name: "Initial scene"
+  description: "Init"
+  initial: False
+  final: False
+  audio_playback: "001-intro_outro"
+  light_cue: "1"
+  internal_callbacks:
+    - update_typeform
+exits:
+  - condition: null
+    target   : s_PREROLL_fanfare

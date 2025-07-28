@@ -1,0 +1,25 @@
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  prompt: 
+    - _PERSONA
+    - Here are excerpts  from  conversations you had with various patients.
+    - _FEW_SHOTS
+    - These exceprts use the following pattern.
+    - A. Patient mentions problem.
+    - B. You explore their problem with them (MULTIPLE TURNS, THE SAME COUNT AS IN THE EXAMPLE TRANSCRIPTS)
+    - C. You suggest an intervention that might help the patient.
+    - Now you are in a conversation with another patient. 
+    - The patient is looking _EMOTION_USER. You are feeling _EMOTION_ELIZA.
+    - _CONVERSATION_SO_FAR      
+    - _CHAT_HISTORY
+    - Suggest an intervention that might help the patient. 
+    - The patient's name is _FIRST_NAME_ _LAST_NAME_.
+    - _BE_SHORT_AND_CONCISE.
+    - Be CRAZY and ORIGINAL.
+
+  # emotion: sadness
+  azure_style: Friendly # 0.8
+  # sg_mood: positive

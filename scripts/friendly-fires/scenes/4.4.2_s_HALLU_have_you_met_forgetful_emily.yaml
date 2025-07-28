@@ -1,0 +1,18 @@
+scene:
+  name: "Have You Met Forgetful Emily"
+  description: "Ask the user if they met Patient Emily"
+  initial: False
+  final: False
+  audio_playback: "004-horror"
+characters:
+  - display_name: "Dr. Stanley"
+    persona_name:  "Dr. Stanley Pushy"
+    behavior: "b_HALLU_have_you_met_forgetful_emily"
+    llm_name: "grok-beta"
+    #llm_name: "grok-beta"
+exits:
+  - condition:  complete and has_met_emily
+    target   : "s_HALLU_emily_been_met"
+  - condition:  complete and not has_met_emily
+    target   : "s_HALLU_emily_not_met"
+

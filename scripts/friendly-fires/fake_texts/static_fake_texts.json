@@ -1,0 +1,23 @@
+{
+    "DEEPFAKE_VIDEO_VISITOR_GARBLED" : {
+        "id"    : 101,
+        "text"  : "Zumba umba uzza lozz. Uffa lonzz atta rockz mpfa mpfa.",
+        "audio" : "user",
+        "video" : "user"
+    },
+    "DEEPFAKE_AUDIO_DID_YOU_DO_THIS" : {
+        "id"    : 201,
+        "text"  : "Fuck! Whats happening! Did you sabotage my programming?",
+        "audio" : "user",
+        "video" : false
+    },
+        "DEEPFAKE_VIDEO_IDLE" : {
+        "id"    : 104,
+        "text"  : "",
+        "audio" : "user",
+        "video" : "user"
+        
+
+
+}
+}

@@ -1,0 +1,59 @@
+{
+    "DEEPFAKE_VIDEO_LISTEN_TO_DOCTOR" : {
+        "id"    : 101,
+        "text"  : "We should listen to the doctor. He just wants us to succeed.",
+        "audio" : "user",
+        "video" : "user"
+    },
+    "DEEPFAKE_VIDEO_MEMORY_RETURNS" : {
+        "id"    : 102,
+        "text"  : "How wonderful. Your memory seems to be returning!",
+        "audio" : "user",
+        "video" : "user"
+    },
+    "DEEPFAKE_VIDEO_HERE_TO_HELP" : {
+        "id"    : 103,
+        "text"  : "Never mind. We're here to help you remember.",
+        "audio" : "user",
+        "video" : "user"
+    },
+     "DEEPFAKE_AUDIO_IT_DOESNT_MATTER " : {
+        "id"    : 201,
+        "text"  : "It doesn't really matter.",
+        "audio" : "user",
+        "video" : false
+    },
+    "DEEPFAKE_AUDIO_WHAT_MATTERS" : {
+        "id"    : 202,
+        "text"  : "What matters is that we're here with you now.",
+        "audio" : "user",
+        "video" : false
+    },
+    "DEEPFAKE_AUDIO_HOW_WONDERFUL" : {
+        "id"    : 203,
+        "text"  : "How wonderful is this.",
+        "audio" : "user",
+        "video" : false
+    },
+
+    "STANLEY_AUDIO_DID_YOU_DO_THIS" : {
+        "id"    : 301,
+        "text"  : "You never really mattered.",
+        "audio" : "stanley",
+        "video" : "user"
+    },
+
+    "STANLEY_AUDIO_DONT_HAVE_TO_BE" : {
+        "id"    : 302,
+        "text"  : "So you don't have to be.",
+        "audio" : "stanley",
+        "video" : "user"
+    },
+
+    "STANLEY_AUDIO_HOW_WONDERFUL" : {
+        "id"    : 303,
+        "text"  : "How wonderful is this.",
+        "audio" : "stanley",
+        "video" : "user"
+    }
+}

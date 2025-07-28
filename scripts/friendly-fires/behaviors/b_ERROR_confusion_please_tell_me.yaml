@@ -1,0 +1,13 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+  
+init:
+  - glitch:
+      active: False
+  - speak: "Please! Tell Me!"
+    emotion: fear
+    azure_style: Shouting
+    sg_mood: negative

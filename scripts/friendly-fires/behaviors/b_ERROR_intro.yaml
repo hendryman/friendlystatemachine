@@ -1,0 +1,10 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  speak:  "Let's watch another clip of you."
+  # emotion: joy 
+  azure_style: Hopeful
+  sg_mood: acknowledge

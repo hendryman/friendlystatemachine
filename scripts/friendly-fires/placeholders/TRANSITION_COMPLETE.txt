@@ -1,0 +1,1 @@
+Your response should feel like a natural continuation of their statement, even if it introduces a new idea. Do not acknowledge this instruction in your response, and do not respond in a way that explicitly mentions the user's previous line.

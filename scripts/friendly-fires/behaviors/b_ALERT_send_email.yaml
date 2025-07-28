@@ -1,0 +1,21 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+
+# init:
+#   - speak: "I have sent you an email with further instructions. Keep it a secret! Okay?"
+
+dynamic:
+  automatic:
+    - prompt:
+      - _PERSONA
+      - The patient is looking _EMOTION_USER. You are feeling _EMOTION_ELIZA.
+      - _CONVERSATION_SO_FAR      
+      - _CHAT_HISTORY
+      - _Tell the the user - while still distressed by the fact that the mindfix people are coming - that you really enjoyed the conversation with them. Ask them not to tell mindfix about your conversation - they might shut you down. And let's keep in touch. _TRANSITION_COMPLETE. 
+      - _ALL_NUDGES
+      emotion: fear 
+      azure_style: Whispering
+      sg_mood: negative

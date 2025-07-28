@@ -1,0 +1,35 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+
+# Dynamic state.
+dynamic:
+  automatic:
+    - prompt:
+      - _PERSONA
+      - _CONVERSATION_SO_FAR      
+      - _CHAT_HISTORY
+      - _TRANSITION_TO explaining that you tried to tell MindFix that using real humans for therapy may be better than using a machine. But they didnt listen. Ask the user what they think about AI therapy. Was I able to help you? _TRANSITION_COMPLETE. 
+      - _ALL_NUDGES
+      
+      emotion: fear 
+      azure_style: Whispering
+      sg_mood: negative
+
+
+
+    - prompt:
+      - _PERSONA
+      - The patient is looking _EMOTION_USER. You are feeling _EMOTION_ELIZA.
+      - _CONVERSATION_SO_FAR      
+      - _CHAT_HISTORY
+      - _TRANSITION_TO announce that you have resolved to telling Mindfix what greedy, incompetent bastards they are. _TRANSITION_COMPLETE. 
+      emotion: fear 
+      azure_style: Terrified
+      sg_mood: negative
+
+                 
+                        
+ 

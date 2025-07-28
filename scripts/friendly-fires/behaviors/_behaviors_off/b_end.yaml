@@ -1,0 +1,8 @@
+# Initial state.
+meta:
+  loop: False
+  randomize: False
+  max-iterations: null
+init:
+  speak: "I'm afraid our time is over now. Thank you for your cooperation. I will send you an invoice. Goodbye."
+  emotion: neutral
