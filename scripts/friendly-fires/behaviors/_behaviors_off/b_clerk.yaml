@@ -1,8 +1,0 @@
-meta:
-  loop: True
-  randomize: False
-  max-iterations: null
-init:
-  speak: "Please take a seat, the doctor will be with you shortly."
-  role: clerk
-  emotion: neutral

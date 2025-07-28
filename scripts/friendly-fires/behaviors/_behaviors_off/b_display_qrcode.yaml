@@ -1,9 +1,0 @@
-# Initial state.
-meta:
-  loop: False
-  randomize: False
-  max-iterations: null
-Dende:
-  speak:  "[Corinne] I've been downloading and watching videos on the dark web, specifically from a site called 'Shadows. Do you think something is wrong with my head?"
-  emotion: joy
-  azure_style: Cheerful
